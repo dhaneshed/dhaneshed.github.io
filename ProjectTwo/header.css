@@ -1,0 +1,52 @@
+.header{
+  height:55px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position:fixed;
+  left:312px;
+  top:0;
+   background-color: rgba(0,0,0,0.009);
+   border-right: 1px solid rgb(240,240,240);
+   z-index:100;
+}
+.Home-text{
+  font-weight: bolder;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+  cursor:pointer;
+}
+.left-section{
+  display:flex;
+  width:620px;
+  justify-content: space-between;
+  flex-direction: row;
+ 
+}
+.tweet-trend-icon{
+  cursor:pointer;
+  border-radius:20px;
+}
+.tweet-trend-icon:hover{
+  background-color: rgb(240,240,240);
+}
+.tweet-trends-logo{
+  position:relative
+}
+.tweet-trends-logo .tooltip{
+  font-size: 10px;
+  background-color: rgb(140,140,140);
+  color:white;
+  padding:5px;
+  opacity:0;
+  width:60px;
+  transition:opacity 0.15s;
+  pointer-events: none;
+}
+.tweet-trends-logo:hover .tooltip{
+  opacity:1;
+}
+.search-field{
+  padding:10px;
+}

@@ -1,0 +1,72 @@
+.sidebar{
+  position:fixed;
+  bottom:0;
+  top: 50px;
+  background-color:white;
+  width:300px;
+  border-right: 1px solid rgb(240, 238, 238);
+}
+.sidebar-link{
+  display:flex;
+  align-items :center;
+  margin-bottom:1px;
+  border-radius: 25px;
+  width:120px;
+  margin-left: 50px;
+  cursor:pointer;
+}
+.sidebar-link:hover{
+  background-color: rgb(240, 238, 238);
+}
+.Tweet-icon{
+  margin-left:50px;
+  border-radius: 20px;
+  cursor:pointer
+}
+.Tweet-icon:hover{
+  background-color:rgb(233, 246, 255);
+}
+button{
+  margin-left:50px;
+  margin-top:20px;
+  border-radius:15px;
+  padding:8px 50px;
+  background-color:rgb(29,155,240);
+  color:white;
+  font-weight: bold;
+  border:none;
+  cursor:pointer;
+}
+button:hover{
+  opacity:0.8;
+}
+.channel-container{
+  display:flex;
+  margin-top:130px;
+  cursor:pointer;
+  height:50px;
+  padding: 10px;
+  width:220px;
+  border-radius:50px;
+}
+.channel-container:hover{
+  background-color: rgb(207, 201, 201);
+}
+.channel-picture{
+  height:50px;
+  width:50px;
+  border-radius:25px;
+}
+.dots{
+  width:10px;
+  height:10px;
+}
+.para{
+  font-weight: bold;
+}
+.para1{
+  color:rgb(140, 138, 138);
+}
+.sidebar-container{
+  position:fixed;
+}
